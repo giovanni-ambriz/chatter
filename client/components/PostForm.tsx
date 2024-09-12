@@ -63,7 +63,7 @@ export default function PostForm() {
         </div>
 
         <div className="formBottom">
-          <div className="filesContain">
+          {/* <div className="filesContain">
             <div className="files">
               <img
                 src="https://icons.veryicon.com/png/o/system/dan_system/file-60.png"
@@ -81,9 +81,9 @@ export default function PostForm() {
               />
               Add File
             </label>
-          </div>
+          </div> */}
 
-          <div className="imagesContain">
+          {/* <div className="imagesContain">
             <div className="images">
               <img
                 src="https://pixsector.com/cache/517d8be6/av5c8336583e291842624.png"
@@ -101,7 +101,7 @@ export default function PostForm() {
               />
               Add Image
             </label>
-          </div>
+          </div> */}
 
           <button
             className="makePost"

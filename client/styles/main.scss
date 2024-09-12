@@ -277,8 +277,8 @@ a:focus {
 
 .postUserImg {
   width: calc(3vh + 3vw);
+  height: calc(3vh + 3vw);
   border-radius: 50%;
-  height: auto;
 }
 
 .postContentBox {
@@ -310,6 +310,7 @@ a:focus {
 
 .makePost {
   font-size: calc(0.7vh + 0.7vw);
+  width: 100%;
 }
 
 

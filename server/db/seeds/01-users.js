@@ -45,14 +45,14 @@ export async function seed(knex) {
       facilitator: false,
       github_url: 'https://github.com/trisha-emperado',
       header_image_url:
-        'https://th-thumbnailer.cdn-si-edu.com/v_QRuNpWkqpSSe175Yr3cBfuNEE=/1000x750/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/31/7f/317f7f56-c30e-4a99-ba23-5f671018ddfb/japan-autumn-kyoto.jpg',
+        'https://cdn.getyourguide.com/img/tour/c90c42fd603a0bb0120e478c9342ab7a678a44073e3d2e894f3201384e139541.jpeg/73.jpg',
     },
     {
       id: 4,
       auth_id: 'authid4',
       username: 'Nora The Explorer',
       name: 'Nora',
-      current_role: 'A++ Student',
+      current_role: 'Free loader living with parents',
       age: 19,
       profile_picture_url:
         'https://ih1.redbubble.net/image.4048453202.3700/st,small,845x845-pad,1000x1000,f8f8f8.jpg',

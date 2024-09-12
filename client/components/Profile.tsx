@@ -263,28 +263,30 @@ function Profile() {
                       backgroundPosition: 'center',
                     }}
                   >
-                    <button
-                      className="changeHeaderButton"
-                      onClick={() => setInputDisplay(true)}
-                    >
-                      Change Header{' '}
-                      {inputDisplay && (
-                        <div className="headerInputBox">
-                          <form onSubmit={handleSubmitHeader}>
-                            <input
-                              type="text"
-                              value={header}
-                              onChange={handleHeaderChange}
-                              className="headerInputZ"
-                            />
-                            <button
-                              type="submit"
-                              className="headerSubmit"
-                            ></button>
-                          </form>
-                        </div>
-                      )}
-                    </button>
+                    {authUser && authUser?.sub === user.auth_id && (
+                      <button
+                        className="changeHeaderButton"
+                        onClick={() => setInputDisplay(true)}
+                      >
+                        Change Header{' '}
+                        {inputDisplay && (
+                          <div className="headerInputBox">
+                            <form onSubmit={handleSubmitHeader}>
+                              <input
+                                type="text"
+                                value={header}
+                                onChange={handleHeaderChange}
+                                className="headerInputZ"
+                              />
+                              <button
+                                type="submit"
+                                className="headerSubmit"
+                              ></button>
+                            </form>
+                          </div>
+                        )}
+                      </button>
+                    )}
 
                     <h2 className="profileUserName">{user.username}</h2>
                     <div className="profilePictureBox">
